@@ -1,0 +1,1 @@
+vhdtdtfi -prj VGA_CONTROLER -o /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhi -module contador_vertical -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work contador_vertical.vhd 

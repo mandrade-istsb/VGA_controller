@@ -1,0 +1,485 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+Reading design: VGA_CONTROLER.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA_CONTROLER.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA_CONTROLER"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : VGA_CONTROLER
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd" in Library work.
+Architecture behavioral of Entity contador_horizontal is up to date.
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd" in Library work.
+Architecture behavioral of Entity gnerador_hsync is up to date.
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd" in Library work.
+Architecture behavioral of Entity contador_vertical is up to date.
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd" in Library work.
+Architecture behavioral of Entity generador_vsync is up to date.
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd" in Library work.
+Architecture behavioral of Entity generador_blank is up to date.
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd" in Library work.
+Architecture behavioral of Entity generador_patrones is up to date.
+Compiling vhdl file "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd" in Library work.
+Architecture behavioral of Entity vga_controler is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <VGA_CONTROLER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <contador_horizontal> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <gnerador_hsync> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <contador_vertical> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <generador_vsync> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <generador_blank> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <generador_patrones> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <VGA_CONTROLER> in library <work> (Architecture <behavioral>).
+Entity <VGA_CONTROLER> analyzed. Unit <VGA_CONTROLER> generated.
+
+Analyzing Entity <contador_horizontal> in library <work> (Architecture <behavioral>).
+Entity <contador_horizontal> analyzed. Unit <contador_horizontal> generated.
+
+Analyzing Entity <gnerador_hsync> in library <work> (Architecture <behavioral>).
+Entity <gnerador_hsync> analyzed. Unit <gnerador_hsync> generated.
+
+Analyzing Entity <contador_vertical> in library <work> (Architecture <behavioral>).
+Entity <contador_vertical> analyzed. Unit <contador_vertical> generated.
+
+Analyzing Entity <generador_vsync> in library <work> (Architecture <behavioral>).
+Entity <generador_vsync> analyzed. Unit <generador_vsync> generated.
+
+Analyzing Entity <generador_blank> in library <work> (Architecture <behavioral>).
+Entity <generador_blank> analyzed. Unit <generador_blank> generated.
+
+Analyzing Entity <generador_patrones> in library <work> (Architecture <behavioral>).
+Entity <generador_patrones> analyzed. Unit <generador_patrones> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <contador_horizontal>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd".
+    Found 11-bit up counter for signal <h_cuenta_int>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador_horizontal> synthesized.
+
+
+Synthesizing Unit <gnerador_hsync>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd".
+    Found 1-bit register for signal <hsync_aux>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <gnerador_hsync> synthesized.
+
+
+Synthesizing Unit <contador_vertical>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd".
+    Found 1-bit register for signal <hsync_s>.
+    Found 1-bit register for signal <hsync_t_1>.
+    Found 10-bit up counter for signal <v_cuenta_int>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <contador_vertical> synthesized.
+
+
+Synthesizing Unit <generador_vsync>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd".
+    Found 1-bit register for signal <vsync>.
+    Found 10-bit comparator greatequal for signal <vsync$cmp_ge0000> created at line 25.
+    Found 10-bit comparator lessequal for signal <vsync$cmp_le0000> created at line 25.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <generador_vsync> synthesized.
+
+
+Synthesizing Unit <generador_blank>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd".
+    Found 11-bit comparator greatequal for signal <blank$cmp_ge0000> created at line 24.
+    Found 10-bit comparator greatequal for signal <blank$cmp_ge0001> created at line 24.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <generador_blank> synthesized.
+
+
+Synthesizing Unit <generador_patrones>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd".
+    Found 1-bit register for signal <B>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <R>.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0000> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0001> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0002> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0003> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0004> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0005> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0006> created at line 39.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0007> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0000> created at line 39.
+    Found 10-bit comparator less for signal <color$cmp_lt0001> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0002> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0003> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0004> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0005> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0006> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0007> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0008> created at line 39.
+    Found 11-bit comparator less for signal <color$cmp_lt0009> created at line 39.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred  18 Comparator(s).
+Unit <generador_patrones> synthesized.
+
+
+Synthesizing Unit <VGA_CONTROLER>.
+    Related source file is "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd".
+Unit <VGA_CONTROLER> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 7
+ 1-bit register                                        : 7
+# Comparators                                          : 22
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator less                                : 1
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greatequal                          : 9
+ 11-bit comparator less                                : 9
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+# Comparators                                          : 22
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator less                                : 1
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greatequal                          : 9
+ 11-bit comparator less                                : 9
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <VGA_CONTROLER> ...
+
+Optimizing unit <generador_patrones> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA_CONTROLER, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : VGA_CONTROLER.ngr
+Top Level Output File Name         : VGA_CONTROLER
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 120
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 19
+#      LUT2                        : 11
+#      LUT2_L                      : 1
+#      LUT3                        : 6
+#      LUT3_D                      : 1
+#      LUT3_L                      : 7
+#      LUT4                        : 26
+#      LUT4_D                      : 4
+#      MUXCY                       : 19
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 28
+#      FDC                         : 16
+#      FDCE                        : 10
+#      FDP                         : 1
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 1
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       41  out of   4656     0%  
+ Number of Slice Flip Flops:             28  out of   9312     0%  
+ Number of 4 input LUTs:                 78  out of   9312     0%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 28    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 28    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.799ns (Maximum Frequency: 172.444MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.799ns (frequency: 172.444MHz)
+  Total number of paths / destination ports: 462 / 39
+-------------------------------------------------------------------------
+Delay:               5.799ns (Levels of Logic = 4)
+  Source:            U1/h_cuenta_int_1 (FF)
+  Destination:       U6/G (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: U1/h_cuenta_int_1 to U6/G
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.706  U1/h_cuenta_int_1 (U1/h_cuenta_int_1)
+     LUT4:I0->O            1   0.704   0.499  U6/color<0>224 (U6/color<0>224)
+     LUT3:I1->O            1   0.704   0.424  U6/color<0>241_SW0 (N7)
+     LUT4_D:I3->O          1   0.704   0.455  U6/color<0>2134 (U6/N14)
+     LUT3:I2->O            1   0.704   0.000  U6/color<1>118 (U6/color<1>)
+     FDC:D                     0.308          U6/G
+    ----------------------------------------
+    Total                      5.799ns (3.715ns logic, 2.084ns route)
+                                       (64.1% logic, 35.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            U2/hsync_aux (FF)
+  Destination:       HSYNC (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: U2/hsync_aux to HSYNC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             3   0.591   0.531  U2/hsync_aux (U2/hsync_aux)
+     OBUF:I->O                 3.272          HSYNC_OBUF (HSYNC)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 17.59 secs
+ 
+--> 
+
+
+Total memory usage is 611900 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

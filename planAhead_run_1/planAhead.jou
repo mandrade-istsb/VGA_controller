@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Jan  8 16:55:28 2024
+# Process ID: 4037
+# Log file: /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports RESET]
+endgroup
+set_property pulltype PULLDOWN [get_ports [list RESET]]
+startgroup
+set_property package_pin G15 [get_ports B]
+endgroup
+startgroup
+set_property package_pin H15 [get_ports G]
+endgroup
+startgroup
+set_property package_pin F15 [get_ports HSYNC]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports R]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports VSYNC]
+endgroup
+save_constraints

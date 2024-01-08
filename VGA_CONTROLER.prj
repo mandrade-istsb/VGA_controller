@@ -1,0 +1,7 @@
+vhdl work "gnerador_hsync.vhd"
+vhdl work "generador_vsync.vhd"
+vhdl work "generador_patrones.vhd"
+vhdl work "generador_blank.vhd"
+vhdl work "contador_vertical.vhd"
+vhdl work "contador_horizontal.vhd"
+vhdl work "VGA_CONTROLER.vhd"

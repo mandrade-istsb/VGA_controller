@@ -1,0 +1,7 @@
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd"
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd"
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd"
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd"
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd"
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd"
+vhdl work "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd"

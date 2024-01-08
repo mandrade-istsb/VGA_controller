@@ -1,0 +1,1 @@
+vhdtdtfi -prj VGA_CONTROLER -o /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhi -module generador_vsync -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work generador_vsync.vhd 

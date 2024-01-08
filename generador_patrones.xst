@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/xst"
+elaborate
+-ifn generador_patrones.prj
+-ifmt mixed

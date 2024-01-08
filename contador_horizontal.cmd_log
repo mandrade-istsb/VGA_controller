@@ -1,0 +1,2 @@
+vhdtdtfi -prj VGA_CONTROLER -o /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.tfi -module contador_horizontal -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work contador_horizontal.vhd 
+vhdtdtfi -prj VGA_CONTROLER -o /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhi -module contador_horizontal -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work contador_horizontal.vhd 

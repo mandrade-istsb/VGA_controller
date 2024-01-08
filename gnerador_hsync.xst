@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/xst"
+elaborate
+-ifn gnerador_hsync.prj
+-ifmt mixed

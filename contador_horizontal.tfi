@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+contador_horizontal instance_name (
+    .clk50(clk50), 
+    .rst(rst), 
+    .h_cuenta(h_cuenta)
+    );
+
+

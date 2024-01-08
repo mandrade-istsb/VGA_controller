@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/gnerador_hsync.xst" -ofn "/home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/gnerador_hsync.syr" 
+vhdtdtfi -prj VGA_CONTROLER -o /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhi -module gnerador_hsync -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work gnerador_hsync.vhd 

@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = C9;
+NET "RESET" LOC = K17;
+
+# PlanAhead Generated IO constraints 
+
+NET "RESET" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "B" LOC = G15;
+NET "G" LOC = H15;
+NET "HSYNC" LOC = F15;
+NET "R" LOC = H14;
+NET "VSYNC" LOC = F14;
