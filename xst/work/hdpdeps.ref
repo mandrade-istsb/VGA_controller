@@ -1,0 +1,63 @@
+V3 32
+FL /home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/contador_horizontal.vhd 2024/01/06.20:29:42 P.20131013
+FL /home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/contador_vertical.vhd 2024/01/06.21:15:49 P.20131013
+FL /home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/generador_blank.vhd 2024/01/06.22:29:34 P.20131013
+FL /home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/generador_vsync.vhd 2024/01/06.22:18:11 P.20131013
+FL /home/ise/VHDL_COMPARTIDA/VGA_CONTROLER/gnerador_hsync.vhd 2024/01/06.22:02:16 P.20131013
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd 2024/01/06.20:29:42 P.20131013
+EN work/contador_horizontal 1704733124 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contador_horizontal/Behavioral 1704733125 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd \
+      EN work/contador_horizontal 1704733124
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd 2024/01/06.21:15:49 P.20131013
+EN work/contador_vertical 1704733128 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contador_vertical/Behavioral 1704733129 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd \
+      EN work/contador_vertical 1704733128
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd 2024/01/06.22:29:34 P.20131013
+EN work/generador_blank 1704733132 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_blank/Behavioral 1704733133 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd \
+      EN work/generador_blank 1704733132
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd 2024/01/08.14:42:30 P.20131013
+EN work/generador_patrones 1704733134 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_patrones/Behavioral 1704733135 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd \
+      EN work/generador_patrones 1704733134
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd 2024/01/06.22:18:11 P.20131013
+EN work/generador_vsync 1704733130 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_vsync/Behavioral 1704733131 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd \
+      EN work/generador_vsync 1704733130
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd 2024/01/06.22:02:16 P.20131013
+EN work/gnerador_hsync 1704733126 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/gnerador_hsync/Behavioral 1704733127 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd \
+      EN work/gnerador_hsync 1704733126
+FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd 2024/01/08.15:02:34 P.20131013
+EN work/VGA_CONTROLER 1704733136 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/VGA_CONTROLER/Behavioral 1704733137 \
+      FL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd \
+      EN work/VGA_CONTROLER 1704733136 CP contador_horizontal CP gnerador_hsync \
+      CP contador_vertical CP generador_vsync CP generador_blank \
+      CP generador_patrones

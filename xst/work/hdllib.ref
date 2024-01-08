@@ -1,0 +1,14 @@
+AR contador_horizontal behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd sub00/vhpl01 1704733125
+EN generador_blank NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd sub00/vhpl08 1704733132
+AR generador_blank behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_blank.vhd sub00/vhpl09 1704733133
+AR generador_vsync behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd sub00/vhpl07 1704733131
+EN contador_vertical NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd sub00/vhpl02 1704733128
+AR generador_patrones behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd sub00/vhpl11 1704733135
+EN vga_controler NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd sub00/vhpl12 1704733136
+EN generador_vsync NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_vsync.vhd sub00/vhpl06 1704733130
+AR gnerador_hsync behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd sub00/vhpl05 1704733127
+AR vga_controler behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/VGA_CONTROLER.vhd sub00/vhpl13 1704733137
+AR contador_vertical behavioral /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_vertical.vhd sub00/vhpl03 1704733129
+EN gnerador_hsync NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/gnerador_hsync.vhd sub00/vhpl04 1704733126
+EN contador_horizontal NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/contador_horizontal.vhd sub00/vhpl00 1704733124
+EN generador_patrones NULL /home/ise/VHDL_COMPARTIDA/XILINX/ISE/VGA_CONTROLER/generador_patrones.vhd sub00/vhpl10 1704733134
